@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{let d=GA.get();if(!d.adminSession&& !location.pathname.endsWith('login.html')){location.href='login.html';return}document.querySelectorAll('[data-admin]').forEach(x=>x.textContent='Administrator')});
